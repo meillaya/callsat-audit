@@ -1,0 +1,6 @@
+card,change,evidence,decision,note
+C0,strict lexicon + ordinal/isotonic source calibration (baseline),02 stress profile,REFERENCE,source QWK is the optimistic ceiling for this DGP
+C1,broaden lexicon with paraphrase synonyms,"paraphrase ΔQWK=+0.619, source ΔQWK=+0.000","KEEP (diagnostic, circular)",lexicon was written from the paraphrase list; not a deployable fix
+C2,isotonic point calibrator alongside ordinal probabilities,isotonic lower MAE in 4/6 conditions,KEEP BOTH,isotonic for point scores; ordinal for ECE/selective/conformal
+C3,runtime evidence gate for abstention,improved 2/4; worsened 1/4; max ΔAUC=+0.015,DISCARD,presence flags are diagnostic but not a consistent deferral policy
+C4,direct small-LLM scoring pilot,LLM table above,PILOT ONLY,"one 3B local model, 40 source calls + paraphrase twins; not a frontier-LLM result"

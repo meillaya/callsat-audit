@@ -1,0 +1,7 @@
+condition,coverage,mean_set_size,nominal
+source,0.98,2.99,0.9
+disfluency,0.98,3.09,0.9
+emotional_arc,0.97,3.05,0.9
+paraphrase,0.76,3.05,0.9
+combined,0.75,3.1,0.9
+persona_mix,0.98,2.95,0.9

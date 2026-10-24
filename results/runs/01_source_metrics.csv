@@ -1,0 +1,15 @@
+,vs latent,vs survey
+n,100.0,73.0
+qwk_raw,0.718,0.502
+qwk_ordinal,0.71,0.495
+qwk_isotonic,0.717,0.549
+mae_raw,0.625,0.835
+mae_ordinal,0.631,0.814
+mae_isotonic,0.624,0.796
+ece,0.05,0.128
+brier,0.625,0.737
+nll,1.129,1.353
+calibration_slope,0.985,0.688
+calibration_intercept,0.187,1.341
+mean_confidence,0.442,0.437
+large_error_rate,0.22,0.384

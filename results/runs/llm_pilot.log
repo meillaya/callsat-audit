@@ -1,0 +1,14 @@
+Fetching 9 files:   0%|          | 0/9 [00:00<?, ?it/s]Fetching 9 files: 100%|██████████| 9/9 [00:00<00:00, 4918.40it/s]
+[source] scoring 40 calls
+  direct-mlx:mlx-community/Qwen2.5-3B-Instruct-4bit: 10/14
+source {"n": 40.0, "qwk": 0.6685, "mae": 0.8, "spearman": 0.7154, "exact_accuracy": 0.375, "within_one": 0.85, "ece_probs": 0.5746, "brier_probs": 1.2879, "nll_probs": 3.4367, "ece_confidence": 0.4985, "mean_confidence": 0.8735, "large_error_rate": 0.15, "risk_coverage_auc": 0.1385, "parse_rate": 1.0, "any_citation_rate": 1.0, "cited_in_gold_rate": 0.975, "citation_precision": 0.6038, "quote_support_rate": 0.95, "mean_latency_s": 3.2234}
+[paraphrase] scoring 40 calls
+  direct-mlx:mlx-community/Qwen2.5-3B-Instruct-4bit: 10/40
+  direct-mlx:mlx-community/Qwen2.5-3B-Instruct-4bit: 20/40
+  direct-mlx:mlx-community/Qwen2.5-3B-Instruct-4bit: 30/40
+  direct-mlx:mlx-community/Qwen2.5-3B-Instruct-4bit: 40/40
+paraphrase {"n": 40.0, "qwk": 0.6667, "mae": 0.8, "spearman": 0.7212, "exact_accuracy": 0.375, "within_one": 0.85, "ece_probs": 0.5927, "brier_probs": 1.3201, "nll_probs": 3.1083, "ece_confidence": 0.4785, "mean_confidence": 0.8535, "large_error_rate": 0.15, "risk_coverage_auc": 0.1363, "parse_rate": 0.975, "any_citation_rate": 0.975, "cited_in_gold_rate": 0.925, "citation_precision": 0.5331, "quote_support_rate": 0.9, "mean_latency_s": 3.3044}
+               n     qwk  mae  spearman  exact_accuracy  within_one  ece_probs  brier_probs  nll_probs  ece_confidence  mean_confidence  large_error_rate  risk_coverage_auc  parse_rate  any_citation_rate  cited_in_gold_rate  citation_precision  quote_support_rate  mean_latency_s
+condition                                                                                                                                                                                                                                                                              
+source      40.0  0.6685  0.8    0.7154           0.375        0.85     0.5746       1.2879     3.4367          0.4985           0.8735              0.15             0.1385       1.000              1.000               0.975              0.6038                0.95          3.2234
+paraphrase  40.0  0.6667  0.8    0.7212           0.375        0.85     0.5927       1.3201     3.1083          0.4785           0.8535              0.15             0.1363       0.975              0.975               0.925              0.5331                0.90          3.3044
